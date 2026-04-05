@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /c/Projects/Gamification_App/lib/**/*.dart)",
+      "Bash(flutter run:*)",
+      "Bash(xargs grep:*)",
+      "Bash(taskkill //F //IM habit_monster.exe)",
+      "Bash(grep -l \"TextField\\\\|TextFormField\\\\|TextEditingController\" /c/Projects/Gamification_App/lib/features/*/*.dart)",
+      "Bash(find /c/Projects/Gamification_App -name \"*.dart\" -type f -exec grep -l \"creature_provider\\\\|trait_definitions\\\\|trait_logic\\\\|widget_test\" {} \\\\;)",
+      "Bash(flutter create:*)",
+      "Bash(taskkill //F //IM chrome.exe)"
+    ]
+  }
+}

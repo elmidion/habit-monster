@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(flutter --version)",
+      "Read(//c/Users/USER/AppData/Local/**)",
+      "Read(//c//**)",
+      "Bash(find /c -name flutter.bat -maxdepth 5)",
+      "Bash(cmd.exe /c \"flutter --version 2>&1\")",
+      "Bash(cmd.exe /c \"where flutter 2>&1\")",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Projects/Gamification_App/**)",
+      "Bash(done)",
+      "Read(//c/Users/USER/.claude/projects/c--Projects-Gamification-App/**)",
+      "Bash(flutter analyze:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter clean:*)",
+      "Bash(flutter pub:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\USER\\.claude\\projects\\c--Projects-Gamification-App"
+    ]
+  }
+}
