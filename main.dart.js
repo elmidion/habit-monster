@@ -97734,8 +97734,8 @@ case 17:d4=d5
 s=18
 break
 case 19:s=20
-return A.D(d6.c7(0,$.oK().gds(),a3).E(0,10),$async$j8)
-case 20:d3+=10
+return A.D(d6.c7(0,$.oK().gds(),a3).E(0,20),$async$j8)
+case 20:d3+=20
 case 18:case 15:k=$.aPI()
 f=d6.e
 f===$&&A.a()
@@ -98214,7 +98214,7 @@ s=1
 break}o=$.oK().gds()
 n=t.zW
 s=3
-return A.D(k.c7(0,o,n).m5(10),$async$qX)
+return A.D(k.c7(0,o,n).m5(20),$async$qX)
 case 3:if(!b){q=null
 s=1
 break}m=A.b7a()
@@ -98224,7 +98224,7 @@ case 4:l=b
 s=l==null?5:6
 break
 case 5:s=7
-return A.D(k.c7(0,o,n).E(0,10),$async$qX)
+return A.D(k.c7(0,o,n).E(0,20),$async$qX)
 case 7:q=null
 s=1
 break
@@ -99835,14 +99835,14 @@ H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.geJ(),h=i.cX($.oK(),t.S),g=A.dk(i.cX(
 if(g==null)g=A.b([],t.nc)
 i=J.at(g)
 s=i.gt(g)>=30
-r=h>=10&&!s
+r=h>=20&&!s
 q=A.lw(j,j,j,!0,!0,j,j,1,j,j,j,!1,j,!1,j,j,j,j,!0,j,j,j,j,j,B.ahK,j,j,j,1,j,!0)
 p=k.x
 p=A.b([new A.a3X(h,j),B.fX,new A.a1L(j),B.fX,A.er(p!=null?new A.a2L(p,j):A.fb(A.yI(A.fP(A.a7("\ud83d\udc8e",j,j,j,A.bK(j,j,j,j,j,j,j,j,j,j,j,80,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j),j,new A.aGw()),B.ik,B.d8,A.c7(0,12e5,0),B.FQ),j,j),1,j)],t.p)
 if(s)p.push(B.ai2)
 else{o=k.w
 n=o?B.ab6:B.ahD
-m=A.a7(o?"\uc18c\ud658 \uc911...":"\uc18c\ud658\ud558\uae30 (10\uc11d)",j,j,j,j,j,j)
+m=A.a7(o?"\uc18c\ud658 \uc911...":"\uc18c\ud658\ud558\uae30 (20\uc11d)",j,j,j,j,j,j)
 o=r&&!o?k.gaek():j
 l=A.aeH(j,j,B.jy,j,j,B.iH)
 p.push(A.di(new A.Du(!0,o,j,j,j,l,B.o,j,!1,j,!0,j,new A.a_0(m,n,l,j,j),j),j,1/0))}p.push(B.bp)
